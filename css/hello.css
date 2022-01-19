@@ -1,0 +1,109 @@
+
+/*------Matthew Jones Hello-Build Code-Along------*/
+
+body {
+  background-color: #edf2f7;
+  font-family: arial;
+}
+
+header, 
+.card-deck,
+footer {
+  width: 960px;
+  background-color: #fff;
+  margin: 40px auto;
+}
+
+header {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+h1, 
+span {
+  color: #dd6b20; 
+}
+
+h1 {
+  font-size: 125px;
+}
+
+h2 {
+  color: #8594ad;
+  font-size: 32px;
+}
+
+.card-deck h2,
+ul {
+  text-align: center;
+  padding-top: 30px;
+}
+
+li {
+  color: #68778d;
+  font-size: 18px;
+  padding: 16px;
+}
+
+.card-deck ul li:last-child {
+  padding-bottom: 32px;
+}
+
+.hire-btn {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 12px;
+}
+
+.hire-btn:link, .hire-btn:visited {
+  background-color: #dd6b20;
+  color: #fff;
+}
+
+.hire-btn:hover, .hire-btn:active {
+  background-color: #fff;
+  color: #8594ad;
+  border: 2px solid #dd6b20;
+}
+
+.card-deck {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #edf2f7;
+}
+
+.card-deck section {
+  width: 300px;
+  background-color: #fff;
+}
+
+.card-deck a {
+  text-decoration: none;
+  color: #68778d;
+}
+
+footer {
+  height: 48px;
+  line-height: 48px;
+  text-indent: 32px;
+}
+
+footer p {
+  font-style: italic;
+  /*color: #8594ad;*/
+  color: #000;
+}
+
+/*------Navigational Behaviours------*/
+
+/*--unvisited & visited links*/
+a:link, a:visited {
+  color: #68778d;
+}
+
+/*--mouse over & selected links--*/
+a:hover, a:active {
+  color: #000;
+}
